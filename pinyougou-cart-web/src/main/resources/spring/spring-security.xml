@@ -8,7 +8,7 @@
     <http pattern="/img/**" security="none"/>
     <http pattern="/js/**" security="none"/>
     <http pattern="/plugins/**" security="none"/>
-    <!--<http pattern="/cart.html" security="none"/>-->
+   <http pattern="/cart.html" security="none"/>
     <http pattern="/cart/*.do" security="none"/>
 
 	<!--   entry-point-ref  入口点引用 -->

@@ -79,7 +79,7 @@ public class UserServiceImpl implements UserService {
 	/**
 	 * 根据ID获取实体
 	 * @param id
-	 * @return
+	 * 3@return
 	 */
 	@Override
 	public TbUser findOne(Long id){
@@ -157,6 +157,7 @@ public class UserServiceImpl implements UserService {
 	private RedisTemplate redisTemplate;
 	@Autowired
 	private  Destination smsDestination;
+
 	/**
 	 * 发送验证码
 	 * @param phone
